@@ -1,0 +1,39 @@
+article p{
+    background: blue;
+    color: black;
+}
+
+article div{
+    background: purple;
+
+}
+
+article > p{
+    background: goldenrod;
+    padding: 20px;
+}
+
+article ~ p{
+    background: gold;
+    padding: 20px;
+}
+
+article + p{
+    background: paleturquoise;
+}
+
+input:in-range{
+    border: 2px solid green;
+}
+
+input:out-of-range{
+    border: 2px solid red;
+}
+
+main p:last-child{
+    background-color: aqua;
+}
+
+a:hover{
+    background-color: blueviolet;
+}
