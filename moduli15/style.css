@@ -86,3 +86,7 @@ div#div3{
 #row::after{
     display: table;
 }
+
+#nav-dropdown:hover #dropdown-content{
+    display: block;
+}
