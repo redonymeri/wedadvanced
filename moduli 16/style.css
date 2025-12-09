@@ -1,0 +1,20 @@
+.Gallery{
+    margin: 10px;
+    border: 1px solid rgb(71, 15, 67);
+    float: left;
+    width: 450px;
+}
+
+.Gallery:hover{
+    border: 3px solid rgb(20, 212, 203);
+}
+
+.Gallery img{
+    width: 100%;
+    height: auto;
+}
+
+.desc{
+    padding: 15px;
+    text-align: center;
+}
