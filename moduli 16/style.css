@@ -18,3 +18,51 @@
     padding: 15px;
     text-align: center;
 }
+
+.sprite{
+    background: url(Gallery/squad.png);
+}
+
+.enggeniers{
+    height: 500px;
+    width: 500px;
+    display: inline-block;
+    background-position:0 0;
+}
+
+.hipster{
+    height: 500px;
+    width: 500px;
+    display: inline-block;
+    background-position:-500px 0;
+}
+
+.speedster{
+    height: 500px;
+    width: 500px;
+    display: inline-block;
+    background-position:0 -500px;
+}
+
+.shadow{
+    height: 500px;
+    width: 500px;
+    display: inline-block;
+    background-position:-500px -500px;
+}
+
+[class*="ds"]{
+    background-color: blue;
+    color: white;
+    padding: 20px;
+}
+
+[class~="ds"]{
+    background-color: aqua;
+    color: black;
+    padding: 30px;
+}
+
+input[placeholder$="Name"]{
+    border: 2px solid red;
+}
