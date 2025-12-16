@@ -1,0 +1,46 @@
+.dropdown-content{
+    display:none;
+}
+
+.dropdown:hover .dropdown-content{
+    display:block;
+    background-color: aqua;
+    width: 160px; height: 30px;
+    box-shadow: 10px 10px 10px 10px black; 
+}
+
+.tooltip-list{
+    visibility: hidden;
+}
+
+.tooltip:hover .tooltip-list{
+    visibility: visible;
+    width: 100px;
+    background:black;
+    text-align: center;
+    color: white;
+    padding: 5px;
+    position: absolute;
+    top: 140px;
+    left: 6%;
+    margin-left: -60px;
+}
+
+#example1{
+    width: 500px;
+    height: 500px;
+    background-image: url(photo2.jpg);
+    border-radius: 20px 40px;
+}
+#example2{
+    width: 500px;
+    height: 500px;
+    background-image: url(photo2.jpg);
+    border-radius: 20px 40px;
+}
+#example3{
+    width: 500px;
+    height: 500px;
+    background-image: url(photo2.jpg);
+    border-radius: 20px 40px;
+}
