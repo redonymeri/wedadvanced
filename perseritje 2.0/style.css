@@ -1,0 +1,10 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background:blue;
+    color: rgb(238, 255, 0);
+}
+
+nav{
+    background-color: darkred;
+    color: burlywood;
+}
