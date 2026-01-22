@@ -1,0 +1,14 @@
+nav{
+background-color: rgb(149, 33, 216);
+height: 100px;
+}
+
+nav a{
+padding: 20px;
+margin: 20px;
+float: right;
+}
+
+nav a:hover{
+    background-color: rgb(119, 11, 182);
+}
