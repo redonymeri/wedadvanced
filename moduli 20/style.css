@@ -1,14 +1,91 @@
-nav{
-background-color: rgb(149, 33, 216);
-height: 100px;
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
 }
 
-nav a{
-padding: 20px;
-margin: 20px;
-float: right;
+.navbar {
+  background: #87509c;
+  padding: 15px;
+  text-align: center;
 }
 
-nav a:hover{
-    background-color: rgb(119, 11, 182);
+.navbar a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.hero {
+    background-color: #87509c; 
+    color: white;
+    padding: 100px 20px;
+}
+
+.hero h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.hero button {
+    background-color: #eb7d4b;
+    border: none;
+    padding: 15px 30px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.hero button:hover {
+    background-color: #d66c3e;
+}
+
+
+.services {
+    background-color: #17c2a4; 
+    color: white;
+    padding: 80px 20px;
+}
+
+.services h2 {
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+.subtitle {
+    font-size: 14px;
+    margin-bottom: 50px;
+}
+
+
+.service-box {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap; 
+}
+
+.service {
+    width: 200px;
+}
+
+.service h3 {
+    margin-bottom: 10px;
 }
