@@ -58,3 +58,14 @@ console.log(fullname);
 
 console.log(`hello to ${fullname}`);
 
+var age = 27;
+
+console.log(age  >=20 &&  age <= 30);
+
+var var1 = 10;
+
+console.log(var1 > 99 || var1 == 10);
+
+var var2 = 69;
+
+console.log
